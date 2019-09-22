@@ -1,7 +1,7 @@
 Kalahandia
 ==========
 
-Welcome to all our brothers and sisters. A forum to learn and help our Kalahandia people to reach there job search. 
+Welcome to all our Brothers and Sisters. This is a forum, for all of us, to learn and help our Kalahandia people to reach there job search. 
 
 
 We are also working on Knowledge sharing session. For now, we are planing of using "https://hangouts.google.com/" for this. Mostly we will be having 1 session every week.
