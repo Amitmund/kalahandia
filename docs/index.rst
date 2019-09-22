@@ -2,8 +2,8 @@ Kalahandia
 ==========
 
 .. image:: IMAGES/logo.jpeg
-   :height: 100px
-   :width: 200 px
+   :height: 300px
+   :width: 600 px
    :scale: 50 %
    :alt: logo of KALAHANDIA CULTURAL ASSOCIATION BENGALURU
    :align: center
