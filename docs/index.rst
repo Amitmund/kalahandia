@@ -38,6 +38,7 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
    :caption: NUAKHAI
 
    NUAKHAI/updates
+   NUAKHAI/memories
    NUAKHAI/2019
    NUAKHAI/2018
    
