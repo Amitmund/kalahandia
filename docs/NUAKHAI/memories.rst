@@ -7,3 +7,5 @@ Memories
    :scale: 50 %
    :alt: memories1
    :align: center
+
+   IMAGES/memories/memories1.jpg
