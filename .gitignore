@@ -1,0 +1,11 @@
+_Store
+.idea
+.vscode
+*.iml
+*.jar
+*.class
+**/go/bin/
+**/Go/bin/
+**/go/pkg/
+**/Go/pkg
+
