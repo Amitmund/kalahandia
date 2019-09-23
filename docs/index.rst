@@ -29,6 +29,50 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
     | https://goo.gl/maps/L1z7jsoD5wjm94ct6
 
 
+.. caution:: 
+    | For now the following data is not proper.
+    | Its work in progress...
+
+.. raw:: html
+
+    <embed>
+        <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Total #', 'Freshers', 'Uniq Contributor', 'Collection In 1000'],
+          ['2004',  40,       10,        15,             50],
+          ['2005',  60,       15,        30,             55],
+          ['2006',  70,       30,        35,             60],
+          ['2007',  130,      20,        40,             80],
+          ['2008',  150,      30,        80,             100],
+          ['2018',  300,      40,        150,            280]
+        ]);
+
+        var options = {
+          title : 'YOY Kalahandia Nuakhai Data/Participent',
+          vAxis: {title: 'Count'},
+          hAxis: {title: 'Year'},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+    </embed>
+
 .. contents::
    :local:
    :depth: 1
