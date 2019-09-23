@@ -18,10 +18,11 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
 .. tip::
     | Join us at the following Kalahandia Linkedin Group:
     | https://www.linkedin.com/groups/10490442/
+    | A Please to learn and share that will help *Job Seeker*
 
 
 .. note::
-    | Quick Updates:
+    | **Quick Updates:**
     | 2019 Nuakhai Venue Details:
     | 29th/Sept/2019 (Sunday) 10:00 AM
     | Siddhartha Convention Center
@@ -30,8 +31,13 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
 
 
 .. caution:: 
-    | For now the following data is not proper.
+    | For now we are using dummy data.
     | Its work in progress...
+
+.. hint::
+    | Total: Total number of Participents.
+    | FirstTimer: Came for the First time to this Program.
+    | Job Seekeer: Who are Searching for Job.
 
 .. raw:: html
 
@@ -45,7 +51,7 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
         function drawVisualization() {
             // Some raw data (not necessarily accurate)
             var data = google.visualization.arrayToDataTable([
-            ['Year', 'Total #', 'FirstTimer', 'JobSeeker'],
+            ['Year', 'Total', 'FirstTimer', 'JobSeeker'],
             ['2004',  40,       10,        15],
             ['2005',  60,       15,        30],
             ['2006',  70,       30,        35],
