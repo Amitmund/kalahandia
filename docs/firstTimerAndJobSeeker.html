@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Year', 'Total', 'FirstTimer', 'JobSeeker'],
+        ['2004',  40,       10,        15],
+        ['2005',  60,       15,        30],
+        ['2006',  70,       30,        35],
+        ['2007',  130,      20,        40],
+        ['2008',  130,      30,        80],
+        ['2009',  120,      30,        80],
+        ['2010',  140,      30,        80],
+        ['2011',  160,      30,        80],
+        ['2012',  180,      30,        80],
+        ['2013',  200,      30,        80],
+        ['2014',  220,      30,        80],
+        ['2015',  240,      30,        80],
+        ['2016',  260,      30,        80],
+        ['2017',  280,      30,        80],
+        ['2018',  300,      40,        80],
+        ['2019',  350,      60,        150]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'First Time and Job Seeker Participent',
+            subtitle: 'Total, First Time to this event, and Job Seeker: Till Date',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="barchart_material" style="width: 700px; height: 900px;"></div>
+  </body>
+</html>

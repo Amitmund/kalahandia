@@ -37,11 +37,11 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
 .. hint::
     | **Total:** Total number of Participents.
     | **FirstTimer:** Came for the First time to this Program.
-    | **Job Seekeer:** Who are Searching for Job.
+    | **Job Seeker:** Who are Searching for Job.
+
 
 .. raw:: html
-   :file: firstTimerAndJobSeeker.html
-
+   :file: testpage.html
 
 .. contents::
    :local:
