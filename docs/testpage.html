@@ -3,15 +3,53 @@
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script type="text/javascript">
 
-      // Load Charts and the corechart package.
-      google.charts.load('current', {'packages':['corechart']});
+      // ########### START of Graph 0 ########
+    
+      // Package needed for this Graph 0  
+      google.charts.load('current', {'packages':['bar']});
 
-      // Draw the pie chart for Sarah's pizza when Charts is loaded.
-      google.charts.setOnLoadCallback(drawSarahChart);
+      function drawGraph0Chart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Year', 'Total', 'FirstTimer', 'JobSeeker'],
+        ['2004',  40,       10,        15],
+        ['2005',  60,       15,        30],
+        ['2006',  70,       30,        35],
+        ['2007',  130,      20,        40],
+        ['2008',  130,      30,        80],
+        ['2009',  120,      30,        80],
+        ['2010',  140,      30,        80],
+        ['2011',  160,      30,        80],
+        ['2012',  180,      30,        80],
+        ['2013',  200,      30,        80],
+        ['2014',  220,      30,        80],
+        ['2015',  240,      30,        80],
+        ['2016',  260,      30,        80],
+        ['2017',  280,      30,        80],
+        ['2018',  300,      40,        80],
+        ['2019',  350,      60,        150]
+        ]);
 
-      // Draw the pie chart for the Anthony's pizza when Charts is loaded.
-      google.charts.setOnLoadCallback(drawAnthonyChart);
+        
+        // Set options: for Graph 0
+        var options = {
+          chart: {
+            title: 'First Time and Job Seeker Participent',
+            subtitle: 'Total, First Time to this event, and Job Seeker: Till Date',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
 
+        
+        // Instantiate and draw the Graph 0.
+        var chart = new google.charts.Bar(document.getElementById('graph_0'));
+      
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+
+      // ########## END  of Graph 0 ####################
+
+      // ########## START Graph for the 1st One #########
+      // For the first graph.
       // Callback that draws the pie chart for Sarah's pizza.
       function drawSarahChart() {
 
@@ -30,13 +68,21 @@
           // Set options for Sarah's pie chart.
           var options = {title:'How Much Pizza Sarah Ate Last Night',
                       width:300,
-                      height:220};
+                      height:225};
 
           // Instantiate and draw the chart for Sarah's pizza.
           var chart = new google.visualization.PieChart(document.getElementById('Sarah_chart_div'));
           chart.draw(data, options);
       }
+      
+      // ########## END Graph for the 1st One #########
 
+
+
+      // ########## START Graph for the 2nd One #########
+
+
+      // For the first graph.
       // Callback that draws the pie chart for Anthony's pizza.
       function drawAnthonyChart() {
 
@@ -54,22 +100,106 @@
 
           // Set options for Anthony's pie chart.
           var options = {title:'How Much Pizza Anthony Ate Last Night',
-                      width:400,
-                      height:300};
+                      width:300,
+                      height:225};
 
           // Instantiate and draw the chart for Anthony's pizza.
           var chart = new google.visualization.PieChart(document.getElementById('Anthony_chart_div'));
           chart.draw(data, options);
       }
+
+    // ########## END Graph for the 2nd One #########
+
+
+    // ########## START Graph for the 3rd One #########
+
+
+      // For the first graph.
+      // Callback that draws the bar chart for Money Collection over Years.
+      function drawCollectionChart() {
+
+        // Create the data table for Money Collection over years.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Years');
+        data.addColumn('number', 'Contribution');
+        data.addRows([
+        ['2004', 50000],
+        ['2005', 60000],
+        ['2006', 100000],
+        ['2007', 120000],
+        ['2007', 140000],
+        ['2007', 160000],
+        ['2007', 160000],
+        ['2007', 170000],
+        ['2007', 180000],
+        ['2007', 180000],
+        ['2007', 180000],
+        ['2007', 180000],
+        ['2007', 180000],
+        ['2007', 200000],
+        ['2007', 280000],
+        ['2019', 300000]
+        ]);
+
+        // Set options for Money collected over years.
+        var barchart_options = {title:'How Much Money Collected Over years',
+                    width:700,
+                    height:300};
+
+        var barchart = new google.visualization.BarChart(document.getElementById('moneyCollected_chart_div'));
+        barchart.draw(data, barchart_options);
+
+
+        }
+
+    // ########## END Graph for the 3rd One #########
+
+
+
+    
+        // Load Charts and the corechart package.
+        google.charts.load('current', {'packages':['corechart']});
+
+        // Draw the Graph 0
+        google.charts.setOnLoadCallback(drawGraph0Chart);
+
+        // Draw the pie chart for Sarah's pizza when Charts is loaded.
+        google.charts.setOnLoadCallback(drawSarahChart);
+
+        // Draw the pie chart for the Anthony's pizza when Charts is loaded.
+        google.charts.setOnLoadCallback(drawAnthonyChart);
+
+        // Draw the pie chart for the Amit's pizza when Charts is loaded.
+        google.charts.setOnLoadCallback(drawCollectionChart);
+
       </script>
+
+
   </head>
   <body>
-      <!--Table and divs that hold the pie charts-->
+    <!-- The graph_0 Data presentation. --> 
+    <div id="graph_0" style="width: 700px; height: 600px;"></div>
+
+    <br>
+
+    <p>
+        <h3> Here are few more datapoints.</h3>
+    </p>
+
+      <!--Table and divs that hold the pie charts -->
+      
+      <!-- This is a comment in HTML, and it support multi line.-->
+      <!-- Remove the following uncomment section. Once we have the correct data.-->
+      <!--
       <table class="columns">
       <tr>
           <td><div id="Sarah_chart_div" style="border: 1px solid #ccc"></div></td>
           <td><div id="Anthony_chart_div" style="border: 1px solid #ccc"></div></td>
       </tr>
       </table>
+      -->
+    
+      <div id="moneyCollected_chart_div"></div>
+
   </body>
   </html>
