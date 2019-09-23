@@ -48,30 +48,88 @@
 
       // ########## END  of Graph 0 ####################
 
+
+
+      // ########### START of Graph 1 ########
+    
+      // Using the same format as above.
+
+      function drawGraph1Chart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Year', 'TotalContributation.'],
+        ['2004', 50000],
+        ['2005', 60000],
+        ['2006', 100000],
+        ['2007', 120000],
+        ['2008', 140000],
+        ['2009', 160000],
+        ['2010', 160000],
+        ['2011', 170000],
+        ['2012', 180000],
+        ['2013', 180000],
+        ['2014', 180000],
+        ['2015', 180000],
+        ['2016', 180000],
+        ['2017', 200000],
+        ['2018', 280000],
+        ['2019', 300000]
+        ]);
+
+        
+        // Set options: for Graph 0
+        var options = {
+          chart: {
+            title: 'Contribution year over year.',
+            subtitle: 'Contribution year over year.',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        
+        // Instantiate and draw the Graph 0.
+        var chart = new google.charts.Bar(document.getElementById('graph_1'));
+      
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+
+      // ########## END  of Graph 1 ####################
+
+
+
       // ########## START Graph for the 1st One #########
       // For the first graph.
-      // Callback that draws the pie chart for Sarah's pizza.
-      function drawSarahChart() {
+      // Callback that draws the Number of years Participated.
+      function numberOfYearParticipated() {
 
-          // Create the data table for Sarah's pizza.
+          // Create the data table for Number of years Participated.
           var data = new google.visualization.DataTable();
-          data.addColumn('string', 'Topping');
-          data.addColumn('number', 'Slices');
+          data.addColumn('string', 'NumberOfYearParticipated');
+          data.addColumn('number', 'On 2018');
           data.addRows([
-          ['Mushrooms', 1],
-          ['Onions', 1],
-          ['Olives', 2],
-          ['Zucchini', 2],
-          ['Pepperoni', 1]
+          ['15', 30],
+          ['14', 25],
+          ['13', 20],
+          ['12', 20],
+          ['11', 23],
+          ['10', 18],
+          ['9', 17],
+          ['8', 30],
+          ['7', 27],
+          ['6', 33],
+          ['5', 10],
+          ['4', 15],
+          ['3', 30],
+          ['2', 40],
+          ['1', 50]
           ]);
 
           // Set options for Sarah's pie chart.
-          var options = {title:'How Much Pizza Sarah Ate Last Night',
-                      width:300,
-                      height:225};
+          var options = {title:'ITs been how many years people are participating Kalahandi Bangalore Nuakhai as of 2018 ',
+                      width:700,
+                      height:600};
 
           // Instantiate and draw the chart for Sarah's pizza.
-          var chart = new google.visualization.PieChart(document.getElementById('Sarah_chart_div'));
+          var chart = new google.visualization.PieChart(document.getElementById('numberOfYearParticipated_chart_div'));
           chart.draw(data, options);
       }
       
@@ -127,17 +185,17 @@
         ['2005', 60000],
         ['2006', 100000],
         ['2007', 120000],
-        ['2007', 140000],
-        ['2007', 160000],
-        ['2007', 160000],
-        ['2007', 170000],
-        ['2007', 180000],
-        ['2007', 180000],
-        ['2007', 180000],
-        ['2007', 180000],
-        ['2007', 180000],
-        ['2007', 200000],
-        ['2007', 280000],
+        ['2008', 140000],
+        ['2009', 160000],
+        ['2010', 160000],
+        ['2011', 170000],
+        ['2012', 180000],
+        ['2013', 180000],
+        ['2014', 180000],
+        ['2015', 180000],
+        ['2016', 180000],
+        ['2017', 200000],
+        ['2018', 280000],
         ['2019', 300000]
         ]);
 
@@ -163,8 +221,11 @@
         // Draw the Graph 0
         google.charts.setOnLoadCallback(drawGraph0Chart);
 
+        // Draw the Graph 1
+        google.charts.setOnLoadCallback(drawGraph1Chart);
+
         // Draw the pie chart for Sarah's pizza when Charts is loaded.
-        google.charts.setOnLoadCallback(drawSarahChart);
+        google.charts.setOnLoadCallback(numberOfYearParticipated);
 
         // Draw the pie chart for the Anthony's pizza when Charts is loaded.
         google.charts.setOnLoadCallback(drawAnthonyChart);
@@ -178,28 +239,32 @@
   </head>
   <body>
     <!-- The graph_0 Data presentation. --> 
-    <div id="graph_0" style="width: 700px; height: 600px;"></div>
+    <br>
+    <p>
+            <div id="graph_0" style="width: 700px; height: 600px;"></div>
+
+    </p>
 
     <br>
-
     <p>
-        <h3> Here are few more datapoints.</h3>
+            <div id="graph_1" style="width: 700px; height: 300px;"></div>
     </p>
 
       <!--Table and divs that hold the pie charts -->
       
       <!-- This is a comment in HTML, and it support multi line.-->
       <!-- Remove the following uncomment section. Once we have the correct data.-->
-      <!--
+      
       <table class="columns">
       <tr>
-          <td><div id="Sarah_chart_div" style="border: 1px solid #ccc"></div></td>
-          <td><div id="Anthony_chart_div" style="border: 1px solid #ccc"></div></td>
+          <!-- <td><div id="numberOfYearParticipated_chart_div" style="border: 1px solid #ccc"></div></td> -->
+          <td><div id="numberOfYearParticipated_chart_div"></div></td>
+          <!-- <td><div id="Anthony_chart_div" style="border: 1px solid #ccc"></div></td> -->
       </tr>
       </table>
-      -->
+
     
-      <div id="moneyCollected_chart_div"></div>
+      <!-- <div id="moneyCollected_chart_div"></div> -->
 
   </body>
   </html>
