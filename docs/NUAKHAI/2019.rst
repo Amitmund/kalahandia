@@ -5,3 +5,32 @@ Nuakhai Invites:
 
 https://www.facebook.com/bikram.tayal/videos/10158969376002729/
 https://www.facebook.com/bikram.tayal/videos/10158993064547729/
+
+Here are few of the images of 2019 Nuakhai Bangalore.
+
+There lot more... and will be sharing the drive path over here.
+
+.. image:: ../IMAGES/2019/nuakhai2019-1.jpg
+   :alt: nuakhai2019-1
+   :align: center
+
+.. image:: ../IMAGES/2019/nuakhai2019-2.jpg
+   :alt: nuakhai2019-2
+   :align: center
+
+.. image:: ../IMAGES/2019/nuakhai2019-3.jpg
+   :alt: nuakhai2019-3
+   :align: center
+
+.. image:: ../IMAGES/2019/nuakhai2019-4.jpg
+   :alt: nuakhai2019-5
+   :align: center
+
+.. image:: ../IMAGES/2019/nuakhai2019-5.jpg
+   :alt: nuakhai2019-5
+   :align: center
+
+.. image:: ../IMAGES/2019/nuakhai2019-6.jpg
+   :alt: nuakhai2019-6
+   :align: center
+
