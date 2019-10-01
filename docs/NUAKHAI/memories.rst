@@ -7,7 +7,7 @@ Sweet memories of our Nuakhai.
    :alt: memories1
    :align: center
 
-And a memorie from **Nuakhai 2019:** 
+And a memories from **Nuakhai 2019:** 
 
 .. image:: ../IMAGES/2019/nuakhai2019-1.JPG
    :alt: nuakhai2019-1
