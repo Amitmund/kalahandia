@@ -7,7 +7,7 @@ Sweet memories of our Nuakhai.
    :alt: memories1
    :align: center
 
-And a memorie from Nuakhai 2019 and at this picture we are not able to capture all our nuakhai family members.
+And a memorie from **Nuakhai 2019:** 
 
 .. image:: ../IMAGES/2019/nuakhai2019-1.JPG
    :alt: nuakhai2019-1
@@ -20,3 +20,7 @@ And a memorie from Nuakhai 2019 and at this picture we are not able to capture a
 .. image:: ../IMAGES/2019/nuakhai2019-8.JPG
    :alt: nuakhai2019-8
    :align: center
+
+**More pictures for 2019 Nuakhai:**
+https://photos.app.goo.gl/kLDLUpgm9NrgasHb7
+
