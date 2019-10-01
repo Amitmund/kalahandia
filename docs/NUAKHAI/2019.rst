@@ -13,27 +13,27 @@ https://photos.app.goo.gl/kLDLUpgm9NrgasHb7
 
 There lot more... and will be sharing the drive path over here.
 
-.. image:: ../IMAGES/2019/nuakhai2019-1.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-1.JPG
    :alt: nuakhai2019-1
    :align: center
 
-.. image:: ../IMAGES/2019/nuakhai2019-2.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-2.JPG
    :alt: nuakhai2019-2
    :align: center
 
-.. image:: ../IMAGES/2019/nuakhai2019-3.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-3.JPG
    :alt: nuakhai2019-3
    :align: center
 
-.. image:: ../IMAGES/2019/nuakhai2019-4.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-4.JPG
    :alt: nuakhai2019-5
    :align: center
 
-.. image:: ../IMAGES/2019/nuakhai2019-5.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-5.JPG
    :alt: nuakhai2019-5
    :align: center
 
-.. image:: ../IMAGES/2019/nuakhai2019-6.jpg
+.. image:: ../IMAGES/2019/nuakhai2019-6.JPG
    :alt: nuakhai2019-6
    :align: center
 
