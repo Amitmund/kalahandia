@@ -39,13 +39,22 @@ Free features of **Zoom Meeting**
 =====   ===== 
 Topic   Meeting related Details (Link, Time, Name)
 =====   =====
-What people look for in an interview (SRE/DEV-OPS)  https://zoom.us/j/4489054288 - 6th/Oct/19 - Sunday - 11:00 AM IST - Amit Mund
+What people look for in an interview (SRE/DEV-OPS)  https://zoom.us/j/4489054288, 6th/Oct/19 - Sunday - 11:00 AM, Amit Mund
 Topic x Link, Time, Atman
 Mechanical/aviation engineer.   Link, Time, Madhusmita         
 English/Softskills/IELTS/SAT/Competitive Exams..    Link, Time, Arun Behera
 Topic Y Link, Time, Subrat
 sales or lead generation    Link, Time, Soumya Ranjan Behera
 =====   =====
+
+
+
++--------------------------------------------------------+----------------------------------------------------------------------------+
+| Topic                                                  | Meeting Related Details (Links, Time, Name)                                |
+|                                                        |                                                                            |
++========================================+============================================================================================+
+|What people look for in an interview (SRE/DEV-OPS)      | https://zoom.us/j/4489054288, 6th/Oct/19 - Sunday - 11:00 AM, Amit Mund    |
++--------------------------------------------------------+----------------------------------------------------------------------------+
 
 
 Meeting of Amit Mund
