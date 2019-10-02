@@ -19,6 +19,7 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
 As of now we are planning to use **Zoom Meeting** => https://zoom.us/
 
 Free features of **Zoom Meeting**
+::
 
     A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.
 
@@ -28,7 +29,9 @@ Free features of **Zoom Meeting**
 
     More details: https://zoom.us/pricing
 
-So, request you all to install and sighup, if needed.
+    So, request you all to install and sighup, if needed.
+
+
 
 **Discussion Scheduled:**
 
@@ -36,8 +39,18 @@ So, request you all to install and sighup, if needed.
 | SL Number |Topic                                           |Speaker(s)              |Meeting details                            |
 +===========+==================================================+======================+============================================+
 |1          | What people look for in an interview in general. |Amit Mund, Speker 2 | 6th/Oct/19 (Sunday), 11AM IST, 448-905-4288  |
++-----------+--------------------------------------------------+--------------+----------------------------------------------------+
 |2          | Python - Introduction                            | Chitta Ranjan Babu | 13th/Oct/19 (Sunday),11AM IST, 448-905-4288  |
 +-----------+--------------------------------------------------+--------------+----------------------------------------------------+
+
+
+=====       =====                                           =====                   =====
+SL Number   Topic                                           Speaker(s)              Meeting details
+=====       =====                                           =====                   =====
+1           What people look for in an interview in general. Amit Mund, Speker 2   6th/Oct/19 (Sunday), 11AM IST, 448-905-4288  
+---------------------------------------------------------------------------------------------------
+2           Python - Introduction                            Chitta Ranjan Babu    13th/Oct/19 (Sunday),11AM IST, 448-905-4288  |
+=====       =====                                           =====                   =====
 
 
 .. tip::
