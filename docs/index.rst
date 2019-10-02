@@ -35,53 +35,41 @@ Free features of **Zoom Meeting**
 
 **Discussion Scheduled:**
 
-+-----------+------------------------------------------------+-----------------------+--------------------------------------------+
-| SL Number |Topic                                           |Speaker(s)              |Meeting details                            |
-+===========+==================================================+======================+============================================+
-|1          | What people look for in an interview in general. |Amit Mund, Speker 2 | 6th/Oct/19 (Sunday), 11AM IST, 448-905-4288  |
-+-----------+--------------------------------------------------+--------------+----------------------------------------------------+
-|2          | Python - Introduction                            | Chitta Ranjan Babu | 13th/Oct/19 (Sunday),11AM IST, 448-905-4288  |
-+-----------+--------------------------------------------------+--------------+----------------------------------------------------+
+
+=====   ===== 
+ Topic  Meeting related Details (Link, Time, Name)
+=====   =====
+What people look for in an interview in general.            https://zoom.us/j/4489054288 - 6th/Oct/19 - Sunday - 11:00 AM IST - Amit Mund
+Topic x                                                     Link, Time, Atman
+Mechanical/aviation engineer.                               Link, Time, Madhusmita         
+English/Softskills/IELTS/SAT/Competitive Exams..            Link, Time, Arun Behera
+=====       =====          ======
 
 
-=====       =====                                           =====                   =====
-SL Number   Topic                                           Speaker(s)              Meeting details
-=====       =====                                           =====                   =====
-1           What people look for in an interview in general. Amit Mund, Speker 2   6th/Oct/19 (Sunday), 11AM IST, 448-905-4288  
----------------------------------------------------------------------------------------------------
-2           Python - Introduction                            Chitta Ranjan Babu    13th/Oct/19 (Sunday),11AM IST, 448-905-4288  |
-=====       =====                                           =====                   =====
+Meeting of Amit Mund
 
+::
+    
+    Example:
 
-Grid table:
+    Amit Mund is inviting you to a scheduled Zoom meeting.
 
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
+    Topic: Amit Mund's Personal Meeting Room
 
+    Join Zoom Meeting
+    https://zoom.us/j/4489054288
 
+    Meeting ID: 448 905 4288
 
+    One tap mobile
+    +14086380968,,4489054288# US (San Jose)
+    +16465588656,,4489054288# US (New York)
 
-Simple table:
-
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
-False  False  False
-True   False  True
-False  True   True
-True   True   True
-=====  =====  ======
+    Dial by your location
+            +1 408 638 0968 US (San Jose)
+            +1 646 558 8656 US (New York)
+    Meeting ID: 448 905 4288
+    Find your local number: https://zoom.us/u/adfPaCVhub
 
 
 .. tip::
