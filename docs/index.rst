@@ -15,6 +15,31 @@ This is a forum, for all of us, to learn and help our Kalahandia people to reach
 
 We are also working on Knowledge sharing session. Mostly we will be having 1 session every week. We are also looking for any free and open technologies that will help us in this. Any suggestion and comments... Please post the same at our following `Kalahandian` Linkedin group.
 
+
+As of now we are planning to use **Zoom Meeting** => https://zoom.us/
+
+Free features of **Zoom Meeting**
+
+    A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.
+
+    Zoom offers a full-featured Basic Plan for free with unlimited meetings. Try Zoom for as long as you like - there is no trial period. Your Basic plan has a **40 minutes** time limit on meetings with three or more total participants.
+
+    Unlimited number of meetings.
+
+    More details: https://zoom.us/pricing
+
+So, request you all to install and sighup, if needed.
+
+**Discussion Scheduled:**
+
++-----------+------------------------------------------------+-----------------------+--------------------------------------------+
+| SL Number |Topic                                           |Speaker(s)              |Meeting details                            |
++===========+==================================================+======================+============================================+
+|1          | What people look for in an interview in general. |Amit Mund, Speker 2 | 6th/Oct/19 (Sunday), 11AM IST, 448-905-4288  |
+|2          | Python - Introduction                            | Chitta Ranjan Babu | 13th/Oct/19 (Sunday),11AM IST, 448-905-4288  |
++-----------+--------------------------------------------------+--------------+----------------------------------------------------+
+
+
 .. tip::
     | Join us at the following Kalahandia Linkedin Group:
     | https://www.linkedin.com/groups/10490442/
