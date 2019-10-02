@@ -16,37 +16,41 @@ This is a forum, for all of us, to learn and help our Kalahandia people to reach
 We are also working on Knowledge sharing session. Mostly we will be having 1 session every week. We are also looking for any free and open technologies that will help us in this. Any suggestion and comments... Please post the same at our following `Kalahandian` Linkedin group.
 
 
-As of now we are planning to use **Zoom Meeting** => https://zoom.us/
+.. note::
+    | As of now we are planning to use **Zoom Meeting** => https://zoom.us/
+    | Following are the free features of **Zoom Meeting** and we are happy with the meeting features of this.
 
-Free features of **Zoom Meeting**
 ::
 
-    A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.
+    **What you need to do to Host a meeting**
+        You must have just installed the zoom on your, browser or cellphone. More details on there website.
+        Signof (First Time) and signin to the app.
+        You will get your personal meeting details, as example given below of **Amit Mund**
+        Share those details, to me along with your topic and timings.
+        I will update the same on this website and we are all set.
 
-    Zoom offers a full-featured Basic Plan for free with unlimited meetings. Try Zoom for as long as you like - there is no trial period. Your Basic plan has a **40 minutes** time limit on meetings with three or more total participants.
+    **What You need to do to join:**
+        You must have just installed the zoom on your, browser or cellphone. More details on there website.
+        Visit to this website and check for Discussion Scheduled.
+        On the Scheduled time, just open your app and give the **link details** to join the meeting.
+        Notes: The free version only support 40 Minutes, and I believe its good enough for now.
+        If needed more, I believe we can rejoin the same, hope it should work :).
 
-    Unlimited number of meetings.
+    **Few More details:**
 
-    More details: https://zoom.us/pricing
+        A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.
 
-    So, request you all to install and sighup, if needed.
+        Zoom offers a full-featured Basic Plan for free with unlimited meetings. Try Zoom for as long as you like - there is no trial period. Your Basic plan has a **40 minutes** time limit on meetings with three or more total participants.
+
+        Unlimited number of meetings.
+
+        More details: https://zoom.us/pricing
+
+        So, request you all to install and sighup, if needed.
 
 
 
 **Discussion Scheduled:**
-
-
-=====   ===== 
-Topic   Meeting related Details (Link, Time, Name)
-=====   =====
-What people look for in an interview (SRE/DEV-OPS)  https://zoom.us/j/4489054288, 6th/Oct/19 - Sunday - 11:00 AM, Amit Mund
-Topic x Link, Time, Atman
-Mechanical/aviation engineer.   Link, Time, Madhusmita         
-English/Softskills/IELTS/SAT/Competitive Exams..    Link, Time, Arun Behera
-Topic Y Link, Time, Subrat
-sales or lead generation    Link, Time, Soumya Ranjan Behera
-=====   =====
-
 
 
 +--------------------------------------------------------+----------------------------------------------------------------------------+
