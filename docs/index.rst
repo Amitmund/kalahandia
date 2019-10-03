@@ -29,7 +29,7 @@ We are also working on Knowledge sharing session. Mostly we will be having 1 ses
     What you need to do to Host a meeting:
     --------------------------------------
 
-        - You must have just installed the zoom on your, browser or cellphone. More details on there website.
+        - You need to install zoom meeting on your, browser or cellphone. More details on there website.
         - Signof (First Time) and signin to the app.
         - You will get your personal meeting details, as example given below of **Amit Mund**
         - Share those details, to me along with your topic and timings.
